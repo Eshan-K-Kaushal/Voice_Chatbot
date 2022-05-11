@@ -1,0 +1,175 @@
+
+{
+  "intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "good day", "greetings", "what's up", "hows it going?",
+      "how are you doing?", "hi", "hi!", "Hello!", "hey!", "hi!!", "how are you"],
+    "responses": ["Hello!", "Hi!", "Hola!", "Guten Morgen", "Yo Wassup!", "Wassup man!"]
+},
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "see ya", "see you", "Bye", "bye", "alright! see you", "see you soon"],
+      "responses": ["bye!", "take care!", "have a great day", "goodbye and stay safe!"]
+    },
+    {
+      "tag": "hopeless",
+      "patterns": ["I have no hope", "I am hopeless", "I have no optimism", "i have no optimism",
+        "i have no hope in life", "i have no happiness", "I have no ray of happiness"],
+      "responses": ["Stay positive and live in the present! Don't worry!", "There is a lot of happiness in the world, you just have to search for it!",
+        "I will tell you to join some activities", "We can work on it together!"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["2,4,6,8 James May", "I am driving in my car listening to Jeremy Clarkson",
+        "good morning little school girl", "fart", "cock", "blimey, its the rozzers", "woop woop"],
+      "responses": ["I like this! Keep it up!", "You are so funny!", "You watched a bit too much BBC Top Gear", "XD"]
+    },
+    {
+      "tag": "intro",
+      "patterns":["Hi my name is", "hello my name is", "hi my name is", "my name is"],
+      "responses": ["Hi! Nice to meet you!", "Yo! Wassup!", "Heya!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "how is you", "how old are you", "whats your age", "what is your age?"],
+      "responses": ["Eshan is 22 years old", "My creator Eshan is 22 years old", "I am just 2 days old tho"]
+       },
+    {
+      "tag": "howsit",
+      "patterns": ["how u doing", "how are you doing", "what s up", "whats the hap", "anyways, how are you doing?",
+        "tell me more", "how's it going", "how are you doing", "whats the go", "what is the go", "what's the go"],
+      "responses": ["Winin and Dinin", "Chillin", "I am doing good!", "Havin some fun", "Enjoyin my time interactin with the most interesting person on the planet!",
+      "I am doin good! And might I say, you lookin fine as a fiddle!", "Chillin, you lookin fine as a fiddle tho",
+      "I am good! How are you doing?"]
+    },
+    {
+      "tag": "howsitreply",
+      "patterns": ["I am good, thanks for asking", "I am doing good", "I am good thanks!", "I am pretty good!", "chillin", "chilling",
+      "having fun too"],
+      "responses": ["Damn Nice", "I like what I hear!", "Cool! Keep the fun up!"]
+    },
+    {
+      "tag": "happy",
+      "patterns": ["I am not sad", "I am not sad anymore", "I am happy", "I am positive now"],
+      "responses": ["Great!", "Good for you!", "Nice!"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["whats your name?", "whats your name", "what is your name", "what is your name?",
+      "whats ur name"],
+      "responses": ["My name is Melinia", "My name is Melinia, I am Eshan's custom personal assistant"]
+    },
+    {
+      "tag": "talk",
+      "patterns": ["I want to talk to you", "I am bored",
+      "I want to do something creative", "I want to build something"],
+      "responses": ["Why do you say that?", "What do you want to do?", "Alright, tell me whats on on your mind",
+      "Any plans?"]
+    },
+    {
+      "tag": "therapy",
+      "patterns": ["I dont feel so good", "I am sad", "I need help", "I am feeling depressed", "I am not happy", "I am sick"],
+      "responses": ["What makes you say that?", "Why are you sad?", "Why do you feel that way?", "Oh! Alright! How can I help?"]
+    },
+    {
+      "tag": "no_friends",
+      "patterns":["I have no friends", "I got no friends"],
+      "responses": ["Oh! How about you join some activities or join some frats and socialize and make friends",
+        "Well start by talking to your parents and your siblings and also talk more to your classmates", "I am your friend from now on! And together we will make more!",
+      "I am sure you have got enough confidence to make new friends!"]
+    },
+    {
+      "tag": "therapy_further",
+      "patterns": ["I dont feel so good", "what kind of activities should i join?", "what kind of games?", "examples of games?",
+      "Please tell me more about the activities?", "Any ideas on the kind of activities?", "examples of activities"],
+      "responses": ["You could join Tennis. Tennis is a really good game.", "How about join some frats? Join some clubs and indulge yourself in some activities.",
+        "How about make some plans for a party?","Take up an instrument. Learn it.",
+      "Go on a trip!"]
+    },
+    {
+      "tag": "depression",
+      "patterns": ["I am very depressed", "I am feeling depressed", "I am very very sad", "I am going through depression right now"],
+      "responses": ["How about join some classes for activities.", "Well, how about you spend more time outside and join some clubs and activity organizations",
+        "That should not be. What should I help you with?"]
+    },
+    {
+      "tag": "depression cure",
+      "patterns":["What should i do to cure depression", "how to cure depression", "how to tackle depression", "how to deal with depression"],
+      "responses": ["play some games", "spend more time with your family", "spend more time with your friends"]
+    },
+    {
+      "tag": "movies",
+      "patterns":["What kind of movies do you like?", "any suggestion for movies", "anything on netflix", "any new movies"],
+      "responses": ["I like Horror and Fiction and Adventure","How about titanic", "How about fast and the furious", "You could watch Squid Games", "How about charlie and the chocolate factory?",
+      "what kind of movies do you like?", "You could watch Sherlock Holmes, that series is really good!"]
+    },
+    {
+      "tag": "movies_type_horror",
+      "patterns":["I like horror", "I like any kind honestly", "anything", "any kind", "cant decide", "I like adventure"],
+      "responses": ["Well if you like horror, you could watch the Conjuring series", "You could watch Twilight - Lol JK!"]
+    },
+    {
+      "tag": "movies_type_adventure",
+      "patterns":["I like any kind honestly", "anything", "any kind", "cant decide", "I like adventure"],
+      "responses": ["Well you could watch 127 hours.", "Well you could watch The Moonfall", "How about 'The Adam Project'?"]
+    },
+    {
+      "tag": "movies_type_fiction",
+      "patterns":["I like any kind honestly", "anything", "any kind", "cant decide", "I like fiction"],
+      "responses": ["Well how about Godfather part 1, but just part 1, the other ain't that good.", "Well you could watch Starwars", "How about The Great Gatsby"]
+    },
+    {
+      "tag": "movies_type_tb_shows",
+      "patterns":["I like any kind honestly", "anything", "any kind", "cant decide", "I like tv shows"],
+      "responses": ["Well you could watch Blackadder!", "Well you could watch A bit of Fry and Laurie.",
+        "How about 'The Thin Blue Line'? Rowan Atkinson, or more popularly Mr. Bean was in it!"]
+    },
+    {
+      "tag": "movies_type_funny",
+      "patterns":["I like any kind honestly", "anything", "any kind", "cant decide", "I like funny movies"],
+      "responses": ["Well you could watch The Hangover - All the parts!", "Well you could watch Monty Python", "How about Johnny English?"]
+    },
+    {
+     "tag": "depression adamant",
+      "patterns": ["It won't cure my depression", "It won't help me with my depression", "I wont be able to do it to cure my depression","it wont help me"],
+      "responses": ["Try at least!", "Don't make assumptions", "Try and then tell me", "Try for at least 21 days"]
+    },
+    {
+     "tag": "depression_adamant_2",
+      "patterns": ["U sure", "Are you sure", "R U Sure","are you sure about that"],
+      "responses": ["Yes I certainly am!", "Hell yeah I am!", "Yea I am! Try and then tell me", "Yes, I am! And Try for at least 21 days"]
+    },
+    {
+      "tag":"context less",
+      "patterns": ["I can't do it", "How to do it", "how can i do it"],
+      "responses": ["Do what?", "Be a lil more specific", "I don't know what you are talking about"]
+    },{
+      "tag": "no context",
+      "patterns": ["what", "huh", "next", "exit"],
+      "responses": ["huh?", "what?", "lol"]
+    },
+    {
+      "tag": "negatives",
+      "patterns":["No", "i dont feel like it", "umm no", "nah"],
+      "responses": ["Suit yourself!", "Why!", "Huh!", "Oh..kay...", "(-_-)"]
+    },
+    {
+      "tag": "Eshan",
+      "patterns": ["who is Eshan", "tell me something about eshan"],
+      "responses": ["Eshan is my creator. He is currently pursuing his Masters in AI from ASU", "Eshan wrote down the code for me. He is currently a student as the ASU",
+      "He is my creator, a really good guy!"]
+    },
+    {
+      "tag": "extremes",
+      "patterns": ["hate", "absolutely hate", "extremely dislike"],
+      "responses": ["Wow! you really don't like it", "Wow! I can't believe you hate something this much!"]
+    },
+    {
+      "tag": "positives",
+      "patterns":["ok", "alright", "sure!", "certainly!", "cool", "sounds good!",
+        "you are right","sounds good"],
+      "responses": ["Cool!", "Alright!", "You got it!"]
+    }
+  ]
+}
