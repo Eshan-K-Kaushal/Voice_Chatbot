@@ -1,3 +1,4 @@
 A lil concept of the chatbot using google's tts for processing the requests of the users.
 A little tweaking is still required for seamless voice recognition.
 Make sure to add all the files in the smae folder while using this!
+Right now, the chatbot can open youtube, open google, give u covid updates (check the code for suggested inputs).
