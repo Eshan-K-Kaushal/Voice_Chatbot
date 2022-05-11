@@ -108,8 +108,8 @@ while(True):
 
             message = ''
             print('Running....\n')
-            print('Hi! I am Malenia, a multimodal chatbot at your service!\n')
-            SpeakText('Hi! I am Malenia, a multimodal chatbot at your service!')
+            print('Hi! I am Lizzy, a multimodal chatbot at your service!\n')
+            SpeakText('Hi! I am Lizzy, a multimodal chatbot at your service!')
             print('Hi! What can I help you with today!')
             SpeakText('What can I help you with today!')
             while (message != 'bye now' and message != 'terminate the code' and message != 'Bye now'):
