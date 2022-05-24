@@ -1,1 +1,4 @@
-
+So here is the new semantic analysis 
+Uses TFIDF to categorize the input statement by a user into one of the 13 categories
+Increasing the dataset would increase the accuracy
+Right now, the accuracy is pretty decent.
