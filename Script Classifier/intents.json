@@ -1,0 +1,194 @@
+
+{
+  "intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "good day", "greetings", "what's up", "hows it going?",
+      "how are you doing?", "hi", "hi!", "Hello!", "hey!", "hi!!", "how are you"],
+    "responses": ["Greet"]
+},
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "see ya", "see you", "Bye", "bye", "alright! see you", "see you soon"],
+      "responses": ["Farewell"]
+    },
+        {
+      "tag": "country",
+      "patterns": ["where are you from",
+        "where do you hail from", "where do you belong from",
+        "before this you were a citizen of which country"],
+      "responses": ["Asking about which country they belong"]
+    },
+      {
+      "tag": "food",
+      "patterns": ["what is your favorite food",
+        "what is the food you like the most", "tell me about your favorite food",
+        "what is this favorite food you like", "what about this favorite dish you like",
+        "what is your favorite dish", "what is your most favorite dish" , "is this spicy or non spicy"],
+      "responses": ["Asking about their favorite food"]
+    },
+      {
+      "tag": "kids",
+      "patterns": ["do you have any kids",
+        "lets talk about your kids",
+        "tell me about your kids" , "what kind of activities do your kids like", "what kind of activites do your children like"],
+      "responses": ["Asking about family: kids"]
+    },
+          {
+      "tag": "spouse",
+      "patterns": ["do you have a wife", "do you have a husband",
+        "lets talk about your wife", "lets talk about your husband",
+        "tell me about your spouse", "what kind of activities does your spouse like"],
+      "responses": ["Asking about family: spouse"]
+    },
+          {
+      "tag": "reason:immigration",
+      "patterns": ["why did you come to united states?",
+        "why did you come to this country", "how you came to leave your country", "how you came to leaving your country to come here",
+        "why did you immigrate", "what is reason you immigrated",
+        "what is the reason behind your immigration", "what is the reason behind you leaving your country"],
+      "responses": ["Asking about reason to leave"]
+    },
+          {
+      "tag": "work",
+      "patterns": ["tell me about your work",
+        "tell me about your job",
+        "what do you do for a living", "what kind of work you in", "what kind of line of work are you in"],
+      "responses": ["Asking about job"]
+    },
+              {
+      "tag": "family: work",
+      "patterns": ["tell me about your dad's work",
+        "tell me about your dads job",
+        "what does your father do for a living", "What kind of work do your parents do",
+      "tell me about your parents jobs", "tell me about the kind of work your mother does",
+        "tell me about your moms job"],
+      "responses": ["Asking about job: family"]
+    },
+
+    {
+      "tag": "explain : work",
+      "patterns": ["tell me more about your work",
+        "tell me mor about your job",
+        "please explain your job"],
+      "responses": ["Asking about job: explanation"]
+    },
+    {
+      "tag": "most important: person",
+      "patterns": ["who is the most important person in your life",
+        "tell me about the most important person in your life", "give me the details of how this person impacted you",
+        "who has been the most important person in your life", "how do your most important person impact you", "how did this person impact you"],
+      "responses": ["Asking about: most important person"]
+    },
+
+
+    {
+      "tag": "hopeless",
+      "patterns": ["I have no hope", "I am hopeless", "I have no optimism", "i have no optimism",
+        "i have no hope in life", "i have no happiness", "I have no ray of happiness", "I am not happy", "I ain't happy"],
+      "responses": ["Hopeless - Sad"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["2,4,6,8 James May", "I am driving in my car listening to Jeremy Clarkson", "I got so many jokes up my sleeve",
+        "good morning little school girl", "fart", "cock", "blimey, its the rozzers", "woop woop", "Ha ha", "funny stuff"],
+      "responses": ["Funny"]
+    },
+    {
+      "tag": "intro",
+      "patterns":["Hi my name is", "hello my name is", "hi my name is", "my name is"],
+      "responses": ["Introduction"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "how is you", "how old are you", "whats your age", "what is your age?"],
+      "responses": ["Age"]
+       },
+    {
+      "tag": "howsit",
+      "patterns": ["how u doing", "how are you doing", "what s up", "whats the hap", "anyways, how are you doing?",
+        "tell me more on how are you doing", "how's it going", "how are you doing", "whats the go", "what is the go", "what's the go", "How art thou"],
+      "responses": ["Asking how are they doing"]
+    },
+    {
+      "tag": "howsitreply",
+      "patterns": ["I am good, thanks for asking", "I am doing good", "I am good thanks!", "I am pretty good!", "chillin", "chilling",
+      "having fun too"],
+      "responses": ["Reply to How are you"]
+    },
+    {
+      "tag": "happy",
+      "patterns": ["I am not sad", "I am not sad anymore", "I am happy", "I am positive now", "I am pretty happy", "I am really positive", "I am cool"],
+      "responses": ["Feeling Happy"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["whats your name?", "whats your name", "what is your name", "what is your name?",
+      "whats ur name", "your name please", "and your name is"],
+      "responses": ["Asking for name"]
+    },
+    {
+      "tag": "talk-family",
+      "patterns": ["Tell me about your family", "Talk about your family", "Tell me something about your family",
+      "I want to know more about your family", "I would like to know about your family",
+        "Do you have any siblings", "Do you have any brothers or sisters", "How many siblings do you have",
+      "How many brothers or sisters do you have?", "Are your siblings similar to you?", "Are your siblings like you are or are they different"],
+      "responses": ["Asking about family: general"]
+    },
+
+    {
+      "tag": "movies",
+      "patterns":["What kind of movies do you like?", "any suggestion for movies", "anything on netflix", "any new movies"],
+      "responses": ["Asking about movies"]
+    },
+        {
+      "tag": "music",
+      "patterns":["What kind of music do you like?", "any suggestion for music",
+        "what genre of music do you like", "what is your most favorite song",
+        "what is your favorite genre of music", "what is your favorite type of music"],
+      "responses": ["Asking about music"]
+    },
+
+    {
+      "tag": "future",
+      "patterns":["What do you think your future looks like", "what do you think about your future", "what are your plans for the future",
+        "any ideas about your future", "any inkling about your future"],
+      "responses": ["Asking about future"]
+    },
+
+    {
+      "tag": "extremes",
+      "patterns": ["hate", "absolutely hate", "extremely dislike", "absolutely hate it", "dont like it at all", "dont like it one bit"],
+      "responses": ["extreme hate"]
+    },
+    {
+      "tag": "positives",
+      "patterns":["ok", "alright", "sure!", "certainly!", "cool", "sounds good!",
+        "you are right","sounds good"],
+      "responses": ["positive reply"]
+    },
+        {
+      "tag": "experience_in_the_new_country",
+      "patterns":["How do you like it here in the new country", "how is this country treating you", "tell me something about your experience here",
+        "lets talk about your experience here", "have you found a good community here",
+        "is this different from what you are used to in your country",
+        "how is this different from your country", "what do you think a good community is", "I would like to hear about what you think is a good community",
+        "lets talk about your experience in this country", "talk to me about your experience in this here country"],
+      "responses": ["Asking about the experience in the current country"]
+    },
+    {
+      "tag": "experience_in_the_old_country",
+      "patterns":["How was it back there",
+        "Is there anything you can tell me about what it was like living there?",
+      "how was it like living back there"],
+      "responses": ["Asking about the experience in the previous country"]
+    },
+        {
+      "tag": "live-where",
+      "patterns":["Where do you live as of now?",
+        "where do you live here",
+      "where are you staying currently"],
+      "responses": ["Asking about where do they live"]
+    }
+      ]
+}
