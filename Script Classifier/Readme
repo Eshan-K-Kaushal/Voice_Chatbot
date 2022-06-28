@@ -1,0 +1,4 @@
+If you want to use the pretrained .h5 file, you need both of the PKL files and you need to have a word document - '.docx format' for the script classifier to read
+the questions from.
+
+If you want to train it again, you can use the NN_for_script_classifier and you need the intents.json file. Then just run the Script_Classifier.py file.
