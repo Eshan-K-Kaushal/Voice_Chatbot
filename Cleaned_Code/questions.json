@@ -1,0 +1,492 @@
+
+{
+  "intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "good day", "greetings", "what's up", "hows it going?",
+      "how are you doing?", "hi", "hi!", "Hello!", "hey!", "hi!!", "Hi",
+      "whats up", "Hi so nice to meet you", "Hello my friend"],
+    "responses": [0]
+    },
+    {
+      "tag": "answer to greeting",
+      "patterns": ["I am good", "I am doing good", "i am doing pretty good",
+        "thanks for asking I am doing good",
+        "I am doing good thanks for asking", "I am good why thank you", "pretty good"],
+      "responses": [1]
+    },
+    {
+      "tag": "ask greeting",
+      "patterns": ["How are you doing", "how are you", "How are you",
+        "I am doing good what about you", "I am doing pretty good thanks for asking how are you",
+        "I am good, how are you doing", "what about you", "what about you, how are you"],
+      "responses": [2]
+    },
+      {
+      "tag": "experience_here",
+      "patterns": ["How has your experience been so far", "have you found a good community here",
+        "tell me about your experience so far", "how has it been so far for you here",
+        "hows it been so far for you", "how do you like it here", "how do you find it so far",
+        "how has your experience been so far in the US", "how do you find the university",
+        "how has your experience been so far in the united states" , "do you like it here",
+      "how has it been so far", "how do you like the university so far"],
+      "responses": [3]
+    },
+      {
+      "tag": "experience_there",
+      "patterns": ["how was your experience back there", "tell me about your previous experience",
+        "lets talk about your experience back there", "tell me about your past experience", "what was your childhood like",
+        "tell me about your experience back there in your country",
+        "what was your life back there", "how was your childhood", "how was your childhood like",
+        "what was it like back there for you" , "how did you feel like back there", "what was your life like back there",
+        "what was it like there in your previous country", "what was it like back in your country"],
+      "responses": [4]
+    },
+          {
+      "tag": "dads_info_and_job",
+      "patterns": ["what kind of work does your dad do",
+        "what kind of line of work is your dad in", "I would like to know about your dad",
+        "lets talk about your dads job", "tell me about your dads job", "I would like to know about your father",
+        "tell me about your dad", "tell me about your father", "tell me about your fathers job",
+        "what does your dad do for a living", "how does your dad support himself",
+        "how does your dad support the family"],
+      "responses": [5]
+    },
+          {
+      "tag": "your_job",
+      "patterns": ["tell me about your job",
+        "what do you do for a living", "how do you support yourself",
+        "how do you support your family", "please tell me more about your job",
+        "what kind of line of work are you in", "what kind of work do you do",
+        "what is your work", "tell me about your job", "lets talk about your work"],
+      "responses": [6]
+    },
+    {
+      "tag": "like_work",
+      "patterns": ["do you like your work", "do you like your current work?", "how is your work",
+        "what do you think about your work", "what do you think about your work",
+        "do you like your job", "do you love your job", "do you like working there?",
+        "how do you like your job", "how much do you like your job", "do you like the kind of work you do"],
+      "responses": [7]
+    },
+
+    {
+      "tag": "moms_info_and_job",
+      "patterns": ["what kind of work does your mom do",
+        "what kind of line of work is your mom in", "I would like to know about your mom",
+        "lets talk about your mom job", "tell me about your moms job", "I would like to know about your mother",
+        "tell me about your mother", "tell me about your mom", "how old is your mom", "how old is your mother", "what is the age of your mom",
+        "what does your mom do for a living", "what does she do for a living",
+        "how does your mom support the family"],
+      "responses": [22]
+    },
+
+    {
+      "tag": "family: work",
+      "patterns": ["What kind of work do your parents do",
+      "tell me about your parents jobs", "what jobs do your parents do?",
+        "What line of work are your parents in?"],
+      "responses": [23]
+    },
+
+    {
+      "tag": "explain : work",
+      "patterns": ["tell me more about your work",
+        "tell me more about your job",
+        "please explain your job", "explain your job to me please", "what do you do in your job",
+        "what are the things you do in your job"],
+      "responses": [24]
+    },
+    {
+      "tag": "location_right_now",
+      "patterns": ["where are you right now",
+        "where are you as of now", "where are you talking to me from",
+        "where are you as of now, right now", "where are you located as of now",
+        "where are you situated as of now", "where do you live", "where do you stay"],
+      "responses": [8]
+    },
+
+
+    {
+      "tag": "think_future",
+      "patterns": ["what is your vision for future", "what do you think of future",
+        "are you positive about your future", "are you optimistic about your future",
+        "what do you think of your future", "what is your future going to be like",
+        "what do you think your future looks like", "are you happy about your future",
+        "what do you think will happen in the future"],
+      "responses": [9]
+    },
+    {
+      "tag": "kids",
+      "patterns": ["do you have any kids", "how many kids do you have", "do you have any children",
+        "did you and your wife ever procreate", "did you and your wife ever reproduce",
+        "did you and your spouse ever procreate",
+        "tell me about your kids", "lets talk about your children", "do you have any children of your own",
+        "I would like to know more about your kids", "lets talk about your kids if you have any"],
+      "responses": [10]
+    },
+    {
+      "tag": "fave_sport",
+      "patterns":["what is your favorite sport", "what is your favorite activity",
+        "what is your favorite part time activity", "tell me about your favorite activity",
+      "lets talk about your favorite part time activity"],
+      "responses": [11]
+    },
+    {
+      "tag": "bye_now",
+      "patterns": ["bye", "thanks for talking to me", "see you bye", "talk to you later bye",
+        "see you", "bye now", "alrighty then, talk to you later", "we will talk later",
+        "alright then, talk to you later"],
+      "responses": [12]
+       },
+    {
+      "tag": "miss_parents",
+      "patterns": ["do you miss your parents", "how much do you miss your parents",
+        "do you still miss your parents", "how do you miss your parents", "do you miss them",
+        "do you still think about your parents", "do you still have memories of your parents",
+        "miss your parents"],
+      "responses": [13]
+    },
+    {
+      "tag": "your_fave_food",
+      "patterns": ["what is your favorite food", "tell me about your favorite food",
+        "what is your favorite dish",
+        "tell me about your favorite dish", "what is your favorite cuisine",
+      "your favorite meal", "your favorite cuisine", "what kind of food do you like"],
+      "responses": [14]
+    },
+    {
+      "tag": "your_culture",
+      "patterns": ["tell me about your culture", "tell me about your traditions",
+        "anything about your culture you want to talk about",
+        "lets talk about your traditions", "I would like to know more about your cultures and traditions",
+        "I would like to know more about your traditions", "lets talk about your cultural activities"],
+      "responses": [15]
+    },
+
+    {
+      "tag": "agree",
+      "patterns": ["sure", "alright", "as you say", "certainly", "alright!",
+      "alright then", "certainly!"],
+      "responses": [16]
+    },
+    {
+      "tag": "positive_reply",
+      "patterns": ["sounds good", "great!", "wow!", "yes!", "yup!", "amazing",
+      "I am so happy for you", "amazing", "amazing!", "thats greats!", "thats so cool!", "great indeed",
+        "thats so cool!", "oh my god wow", "damn!", "impressive", "that is impressive indeed",
+      "nice", "that is wonderful", "that sounds really good"],
+      "responses": [17]
+    },
+
+    {
+      "tag": "leave_it",
+      "patterns":["leave it", "nothing", "let me ask something else", "ok", "okay", "let me rephrase it",
+      "let me rephrase it for you"],
+      "responses": [18]
+    },
+    {
+      "tag": "religious_beliefs",
+      "patterns":["What religions do you follow", "what are your religious beliefs",
+        "what are your parents religious beliefs", "what religion does you and your family practice",
+        "what religion do you believe in", "tell me about the religion you practice",
+        "what religion do you follow", "what religion do you and family practice"],
+      "responses": [19]
+    },
+
+    {
+      "tag": "introduce_yourself",
+      "patterns":["tell me about yourself", "I want to know more about you", "introduce yourself",
+        "tell me a little about yourself", "I would like to know more about you", "tell me about you"],
+      "responses": [20]
+    },
+
+    {
+      "tag": "family_more",
+      "patterns": ["tell me more about your family", "i would like to know more about your family",
+        "talk more about your family"],
+      "responses": [21]
+    },
+        {
+      "tag": "dads_age",
+      "patterns": ["how old is yur dad", "how old is he", "what is his age", "what is your father's age",
+        "how old is your father", "what is your fathers age"],
+      "responses": [25]
+    },
+            {
+      "tag": "dads_name",
+      "patterns": ["what is his name", "what is your fathers name", "what is your dads name",
+        "please tell me your dads name again"],
+      "responses": [26]
+    },
+           {
+      "tag": "experience_difference",
+      "patterns": ["how is it different from there", "how is here different from there",
+        "how much is here different from there",
+        "how has it been different"],
+      "responses": [27]
+    },
+
+         {
+      "tag": "tell_me_more",
+      "patterns": ["tell me more about it", "please tell me more about it", "i would like to know more",
+        "tell me more about her", "why", "how is like", " what is it like", "what's it like",
+        "I would like to know more about it", "anything else you want to say about it",
+      "anything else you want to say", "anything else", "tell me more about him",
+        "please, i would like to know more", "is there anything else", "what else",
+        "tell me more about it", "tell me more about her", "tell me more about them"],
+      "responses": [28]
+    },
+             {
+      "tag": "university",
+      "patterns": ["what university are you in", "which university are you in",
+        "which university are you doing your masters from",
+        "which college are you doing your degree from",
+      "which university you pursuing it from", "where are you pursuing it from",
+      "where are you doing your masters from", "where are you doing your degree from"],
+      "responses": [29]
+    },
+    {
+      "tag": "parents",
+      "patterns": ["tell me about your parents", "I would like to know more about your parents",
+        "tell me about your parents", "lets talk about your mother and father",
+        "lets talk about your parents", "tell me about your mom and dad"],
+      "responses": [30]
+    },
+        {
+      "tag": "where_from",
+      "patterns": ["where are you from", "where are you originally from",
+        "where do you hail from", "where do you come from originally"],
+      "responses": [31]
+    },
+    {
+      "tag": "kids_ages",
+      "patterns": ["how old are they", "what are their ages",
+        "how old are your kids", "what are the ages of your children"],
+      "responses": [32]
+    },
+    {
+      "tag": "kids_more",
+      "patterns": ["tell me more about your kids",
+        "tell me more about your children", "tell me more about your daughter", "tell me more about your son",
+        "lets talk more about your children"],
+      "responses": [33]
+    },
+
+    {
+      "tag": "kids_school",
+      "patterns": ["what school do they go to", "what school do they attend",
+        "which school do they go to",
+        "what school do your children go to", "which school did your put your children in"],
+      "responses": [37]
+    },
+
+    {
+      "tag": "how_long_time",
+      "patterns": ["how long have you been doing it for",
+        "how many years have you been doing it for"],
+      "responses": [34]
+    },
+
+    {
+      "tag": "stay_in_touch",
+      "patterns": ["how do you stay in touch with them", "what apps do you use to talk to them", "what applications do you use to stay in touch with them",
+        "how do you stay in touch with your parents",
+        "how do you stay in touch with your mom and dad",
+        "how do you stay in contact with your mother and father"],
+      "responses": [35]
+    },
+
+    {
+      "tag": "often_talk",
+      "patterns": ["how often do you talk with them",
+        "how often do you stay in touch with your parents",
+        "how often do you stay in touch with your mom and dad",
+        "how often do you stay in contact with your mother and father",
+      "how frequently do you guys talk"],
+      "responses": [36]
+    },
+
+    {
+      "tag": "spouse",
+      "patterns": ["tell me about your wife",
+        "tell me about your husband",
+        "tell me about your spouse", "I would like to know more about your spouse",
+        "lets talk about your spouse", "I would like to know more about your husband",
+      "I would like to know more about your wife"],
+      "responses": [38]
+    },
+
+    {
+      "tag": "spouse_age",
+      "patterns": ["how old is your spouse", "how old is she", "what is his age", "what is your wife's age",
+        "how old is your wife", "what is your husbands age"],
+      "responses": [39]
+    },
+
+    {
+      "tag": "university_info",
+      "patterns": [ "what college you in", "where are you doing your masters from", "where do you study", "where are you studying right now",
+      "what college are you pursuing your masters degree from",
+        "which university you pursuing your degree from", "where are you pursuing your masters from",
+      "which university you pursuing your masters from from",
+      "where are you doing your masters from", "where are you doing your degree from",
+            "what college are you pursuing your masters from",
+        "which university you pursuing your degree from"],
+      "responses": [40]
+    },
+
+    {
+      "tag": "loc_info",
+      "patterns": ["where are you staying as of now", "where in US do you live", "no where do you live as of now",
+        "where are you living here in the US", "where do you live in the US"],
+      "responses": [41]
+    },
+
+    {
+      "tag": "music",
+      "patterns": ["what kind of music do you like", "whats your favorite song",
+        "what is your favorite kind of music", "what genre of music do you like"],
+      "responses": [42]
+    },
+       {
+      "tag": "food_more",
+      "patterns": ["it spicy or non spicy", "describe its taste",
+        "describe the taste of what you like"],
+      "responses": [43]
+    },
+       {
+      "tag": "food_back_there",
+      "patterns": ["what kind of food did you have back there",
+        "what kind of food of people eat in your country", "what kind of food do you eat back there"],
+      "responses": [44]
+    },
+      {
+      "tag": "company_info",
+      "patterns": ["what kind of companies are you looking for",
+        "what companies are your targeting", "which companies are you going for"],
+      "responses": [45]
+    },
+     {
+      "tag": "relocate",
+      "patterns": ["are you willing to relocate",
+        "what are you plans about relocating", "would you be willing to relocate"],
+      "responses": [46]
+    },
+        {
+      "tag": "movies",
+      "patterns":["What kind of movies do you like?", "what genre of movies do you like",
+        "any suggestion for movies", "anything on netflix", "any new movies",
+      "whats your favorite movie"],
+      "responses": [47]
+    },
+              {
+      "tag": "reason:immigration",
+      "patterns": ["why did you come to united states?",
+        "why did you come to this country", "how you came to leave your country", "how you came to leaving your country to come here",
+        "why did you immigrate", "what is reason you immigrated",
+        "what is the reason behind your immigration", "what is the reason behind you leaving your country"],
+      "responses": [48]
+    },
+            {
+      "tag": "school_info",
+      "patterns":["What schools do they go to?", "what school are they in",
+        "what school did you put them in", "do they go to a school",
+      "what school do your kids go to", "what school do your children go to"],
+      "responses": [49]
+    },
+           {
+      "tag": "good_comm",
+      "patterns":["What do you think a good community is?", "what is your definition of a good community",
+        "how do you define a good community", "any ideas on a good community"],
+      "responses": [50]
+    },
+          {
+      "tag": "like_it",
+      "patterns":["do you like it", "what do you say, do you like it", "how much do you like it"],
+      "responses": [51]
+    },
+         {
+      "tag": "fave_person",
+      "patterns":["who is your favorite person", "who has had the most influence on your life",
+        "who has been the most important person in your life", "who has been the most important person for you",
+        "who has influenced you the most", "who would you call your most favorite person"],
+      "responses": [52]
+    },
+        {
+      "tag": "same_liking",
+      "patterns":["I like it too", "you know what I love it too",
+        "Oh i like it too", "wow I like it too", "what a coincidence, I like it too!"],
+      "responses": [53]
+    },
+
+    {
+      "tag": "go_deep",
+      "patterns":["I want to ask you a question", "I want to ask you an indepth question",
+        "I want to ask you some direct questions", "I want to know more about your deeply", "I want to go deep"],
+      "responses": [54]
+    },
+
+    {
+      "tag": "cartel_connections",
+      "patterns":["Did you have connections with the cartel", "do you have any connections with the cartel",
+        "Did you have, at any time, any time of connections with the cartel?"],
+      "responses": [55]
+    },
+
+    {
+      "tag": "culture_like",
+      "patterns":["What do you like about your culture?", "what is your most favorite thing about your culture",
+        "what do you like about your country's traditions?", "what do you like about your country's culture?"],
+      "responses": [56]
+    },
+
+    {
+      "tag": "exp_raising_child",
+      "patterns":["What's it like raising your children here", "How do you feel like while raising your kid?",
+        "What's it like raising your son here", "What's it like raising your daughter here"],
+      "responses": [57]
+    },
+
+    {
+      "tag": "def_job_exp",
+      "patterns":["How do you define the importance of education", "What's a total man to you",
+        "How did you study after you dropped out of school", "what do you think a total man is",
+        "what is a total man in your books", "what is a total man to you",
+        "What did you do after you dropped out of school?", "What do you think of work experiences"],
+      "responses": [58]
+    },
+
+    {
+      "tag": "commute",
+      "patterns":["How do you commute everyday", "How do you travel", "what places to have you been here",
+        "How do travel around here", "how do you travel", "where have you travelled to here", "what all places have you travelled to here",
+        "what is your mode of commute", "what places have you been to so far here",
+        "what do you use to travel", "What do you use to commute", "what is your mode of transportation"],
+      "responses": [59]
+    },
+          {
+      "tag": "meet_spouse",
+      "patterns":["How did you meet her", "How did you meet him",
+        "how did you meet your wife", "how did you meet your husband", "How did you meet your spouse",
+        "where did you meet your spouse", "where did you meet your wife", "where did you meet your husband",
+      "where and how did you meet"],
+      "responses": [60]
+    },
+              {
+      "tag": "grandparents",
+      "patterns":["tell me about your grandparents", "what do you know about your grandparents",
+      "any memories of your grandparents", "what memories do you have of your grandparents",
+        "were you close to your grandparents", "do you know your grandparents"],
+      "responses": [61]
+    },
+             {
+      "tag": "schooling",
+      "patterns":["where did you do your schooling from", "whence did you do you schooling from", "from where did your schooling happen",
+      "how did you do your schooling", "where did you school from", "where did you study for school", "how did you educate yourself",
+      "tell me about your educational experience", "tell me about your education so far", "how did you educate yourself after dropping out of school",
+      "lets talk about your educational experience so far", "tell me about your education background", "whence did your schooling happen"],
+      "responses": [62]
+    }
+
+  ]
+}
