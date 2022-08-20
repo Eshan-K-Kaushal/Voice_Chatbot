@@ -53,18 +53,18 @@ def Gratitude():
     return random.choice(gc)
 
 # ------ loading the model ------------
-model = load_model('trained_questions.h5')
+model = load_model('/content/Voice_Chatbot/Cleaned_Code/trained_questions.h5')
 
-intents_out = json.loads(open('questions.json').read())
+intents_out = json.loads(open('/content/Voice_Chatbot/Cleaned_Code/questions.json').read())
 
 # -------class of all functions that serve as helper functions to prepare the input sentence for running the predictor on it--------
 class Model_Helpers:
     # GLOBAL
     lemmer = WordNetLemmatizer()
-    intents = json.loads(open('questions.json').read())
+    intents = json.loads(open('/content/Voice_Chatbot/Cleaned_Code/questions.json').read())
 
-    words = pickle.load(open('words.pkl', 'rb'))
-    classes = pickle.load(open('classes.pkl', 'rb'))
+    words = pickle.load(open('/content/Voice_Chatbot/Cleaned_Code/words.pkl', 'rb'))
+    classes = pickle.load(open('/content/Voice_Chatbot/Cleaned_Code/classes.pkl', 'rb'))
 
     def clean(self, sentence):
         sent_words = nltk.word_tokenize(sentence)
