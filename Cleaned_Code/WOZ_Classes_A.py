@@ -1,9 +1,18 @@
 # author: Eshan dated: 08/15/2022
 
+# dependencies
+!pip install nltk
+!pip install docx2txt
+!pip install ffpyplayer
+!pip install transformers
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 # importing all the libraries
 from context_test_wiki import context
 import json
-import nltk
 import numpy as np
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
