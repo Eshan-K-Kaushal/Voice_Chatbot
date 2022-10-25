@@ -15,7 +15,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, T5To
 model_name = 't5-base'
 tokenizer = T5Tokenizer.from_pretrained(model_name) # using t5 since distilbert dont work well with the complex question - answer pipeline
 
-with open('context_afghan.json', encoding='utf8') as json_file:
+with open('/content/Voice_Chatbot/T5_Afghan/context_afghan.json', encoding='utf8') as json_file:
     data = json.load(json_file)
 
 def extract_questions_and_answers(path):
@@ -44,7 +44,7 @@ def extract_questions_and_answers(path):
     return pd.DataFrame(data_row) # make a data frome that has all the info in it
 
 
-df = extract_questions_and_answers('context_afghan.json')
+df = extract_questions_and_answers('/content/Voice_Chatbot/T5_Afghan/context_afghan.json')
 
 class dataset_creation(Dataset):
     def __init__(self, data, tokenizer, source_max_token_len = 396,
