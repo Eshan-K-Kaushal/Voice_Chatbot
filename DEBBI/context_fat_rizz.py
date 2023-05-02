@@ -1,0 +1,7 @@
+# author Eshan K Kaushal
+
+context_fat = [
+    ["I am Mustafa. I am from Afghanistan. I grew up in a very small hometown. The hometown was very beautiful. In the hometown everyone knew each other so it was always friendly and bright."],
+    ["I would want to move out of Afghanistan eventually. I was preparing myself to leave and all. Suddenly, the country fell down. The country fell down on 15th August 2021. The country fell down because of the Taliban. Everyone was scared of the Taliban. Because people were scared of the Taliban, everyone wanted to leave the country. I did not want to live under the flag of Taliban and because of that I left. I left and came to the USA since I had a chance to come to the US. So I was on my way to the USA. I could not go to England at that time because the VISA formalities took a long time. I could not do all those formalities because the country fell down. The reason I chose USA was because the US military had some sort of a mission in Afghanistan. US Militariy's mission in Afghanistan allowed people get to foreigner VISA to the USA. "],
+    ["I love my family. We all used to live together in our house like a joint family. We all had big delicious meals everytime. I loved it! I have two brothers and 2 sisters. I have a total of 4 siblings. I have a total of 4 brothers and sisters together."],
+]
