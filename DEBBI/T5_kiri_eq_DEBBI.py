@@ -28,6 +28,7 @@ rec_q = ['', '']
 rec_a = ['', '']
 
 def get_answer(question, prev_qa, context):
+    # created and modified by Eshan K Kaushal
     input_text = [f"q: {qa[0]} a: {qa[1]}" for qa in prev_qa]
     input_text.append(f"q: {question}")
     input_text.append(f"c: {context}")
@@ -61,6 +62,7 @@ for i in range(0, len(main_vocab_word)):
     dict_ser[main_vocab_word[i]] = i
 
 def vectorizer_prepender(inp):
+    # created by Eshan K Kaushal
     #print(dict_ser)
     vector = []
     for i in word_tokenize(inp):
